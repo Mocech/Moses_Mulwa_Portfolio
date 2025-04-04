@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farwa Ali - UI & UX Designer</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div class="logo">
+        <div class="logo-circles">
+          <div class="circle blue"></div>
+          <div class="circle yellow"></div>
+        </div>
+        <span class="logo-text">Moses Mulwa</span>
+      </div>
+      <div class="nav-container">
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About Me</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="#contact" class="btn primary-btn">Hire Me</a>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="subtitle">Hi I am</p>
+        <h1 class="title">Moses Mulwa</h1>
+        <h2 class="profession"><span id="typed-text"></span><span class="cursor">|</span></h2>
+        <p class="description">
+          As an IT student, I am passionate about exploring and mastering the latest technologies in web development, programming,  
+          and database management. I am dedicated to building efficient, user-friendly solutions while continuously enhancing my skills  
+          in system design, problem-solving, and technology integration to stay ahead in the ever-evolving tech landscape.
+        </p>
+        
+        <div class="hero-buttons">
+          <a href="#contact" class="btn primary-btn">Hire Me</a>
+          <button id="download-cv" class="btn outline-btn">
+            <i class="fas fa-download"></i> Download CV
+          </button>
+        </div>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-container">
+          <div class="image-bg"></div>
+          <div class="image-frame">
+            <img src="images/Moses-Mulwa.jpg" alt="Moses Mulwa">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-image">
+          <div class="image-bg"></div>
+          <div class="image-frame">
+            <img src="images/Moses-Mulwa.jpg" alt="Moses Mulwa">
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
+          </p>
+          <div class="skills">
+            <div class="skill">
+              <div class="skill-header">
+                <span class="skill-name">Web Design</span>
+                <span class="skill-percentage">95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="95"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-header">
+                <span class="skill-name">App Design</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-header">
+                <span class="skill-name">Graphic Design</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-header">
+                <span class="skill-name">UI/UX</span>
+                <span class="skill-percentage">98%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="98"></div>
+              </div>
+            </div>
+          </div>
+          <div class="personal-info">
+            <div class="info-item">
+              <h4 class="info-title">Name:</h4>
+              <p class="info-value">Moses Mulwa</p>
+            </div>
+            <div class="info-item">
+              <h4 class="info-title">Email:</h4>
+              <p class="info-value">mosesfrancis018@gmail.com</p>
+            </div>
+            <div class="info-item">
+              <h4 class="info-title">Age:</h4>
+              <p class="info-value">20</p>
+            </div>
+            <div class="info-item">
+              <h4 class="info-title">From:</h4>
+              <p class="info-value">Nairobi, Kenya</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="section-header">
+        <h2 class="section-title">Services</h2>
+        <p class="section-description">
+          As a passionate IT student, I specialize in web development, backend engineering, and database management. 
+          I build modern, responsive websites and applications using cutting-edge technologies, ensuring seamless functionality and optimal performance. 
+          My expertise includes frontend development with HTML, CSS, and JavaScript, as well as backend development using Django and Python. 
+          Additionally, I am skilled in database management, system security, and IT auditing.  
+        </p>
+        
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-layer-group"></i>
+          </div>
+          <h3 class="service-title">UI/UX</h3>
+          <p class="service-description">
+            I am an IT student specializing in full-stack web development, backend engineering, and database management.  
+            I develop dynamic and user-friendly applications using modern technologies like Django, Python, HTML, CSS, and JavaScript.  
+            My expertise also extends to system security, IT auditing, and database optimization to ensure seamless digital experiences.  
+          </p>
+           </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-pen-nib"></i>
+          </div>
+          <h3 class="service-title">GRAPHICS</h3>
+          <p class="service-description">
+            I create visually stunning graphics, including logos, posters, UI designs, and marketing materials.  
+            Using modern tools like Adobe Photoshop, Illustrator, and Figma, I ensure high-quality and creative designs  
+            that align with brand identity and user engagement.
+          </p>
+       </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3 class="service-title">WEB DESIGN</h3>
+          <p class="service-description">
+            I design modern, responsive, and user-friendly websites that enhance user experience and engagement.  
+            Using the latest web technologies like HTML, CSS, JavaScript, and UI/UX design principles,  
+            I create visually appealing and functional web interfaces tailored to your needs.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-microchip"></i>
+          </div>
+          <h3 class="service-title">BACKEND DEVELOPMENT</h3>
+        <p class="service-description">
+          I specialize in building robust and scalable backend systems using Django and Python.  
+          My expertise includes developing secure APIs, handling database management, and ensuring seamless integration between  
+          the frontend and backend for high-performance web applications.
+        </p>
+  </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h3 class="service-title">CREATIVE SOLUTIONS</h3>
+          <p class="service-description">
+            I provide innovative and tailored IT solutions, combining creativity with technology to solve complex problems.  
+            From web development to graphic design and system optimization, I craft unique digital experiences that align  
+            with your vision and business goals.
+          </p>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3 class="service-title">APP DESIGN</h3>
+          <p class="service-description">
+            I design and develop modern, user-friendly mobile applications using Flutter for cross-platform compatibility.  
+            With a strong backend powered by Django, I ensure seamless data handling, authentication, and API integrations  
+            to deliver high-performance and scalable mobile solutions.
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="section-header">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-description">
+          Here are some of the projects I have worked on, showcasing my skills in web development, backend engineering,  
+          and mobile app development. Each project is built with modern technologies, ensuring efficiency, scalability,  
+          and a seamless user experience.
+        </p>
+        
+      </div>
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+        <button class="filter-btn" data-filter="app-design">App Design</button>
+        <button class="filter-btn" data-filter="graphic-design">Graphic Design</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-category="ui-ux">
+          <div class="project-image">
+            <img src="images/proj1.jpg" alt="Website Design">
+            <div class="project-overlay">
+              <a href="https://recipe-project-62t1.onrender.com/"><h3 class="project-title">Website Design</h3></a>
+              <p class="project-category">UI/UX</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="app-design">
+          <div class="project-image">
+            <img src="images/flutter.jpeg" alt="Mobile App">
+            <div class="project-overlay">
+              <h3 class="project-title">Mobile App</h3>
+              <p class="project-category">App Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="graphic-design">
+          <div class="project-image">
+            <img src="images/brand.jpeg" alt="Brand Identity">
+            <div class="project-overlay">
+              <h3 class="project-title">Brand Identity</h3>
+              <p class="project-category">Graphic Design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="section-header">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-description">
+          Feel free to reach out to me for any inquiries or project discussions.
+        </p>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info-content">
+              <h3 class="info-title">Email</h3>
+              <p class="info-value">mosesfrancis018@gmail.com</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="info-content">
+              <h3 class="info-title">Phone</h3>
+              <p class="info-value">+254 707274060</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info-content">
+              <h3 class="info-title">Location</h3>
+              <p class="info-value">Nairobi, Kenya</p>
+            </div>
+
+                        <!-- Add this inside the contact-info section, after the existing info cards -->
+            <div class="info-card whatsapp-card">
+                <div class="info-icon">
+                <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="info-content">
+                <h3 class="info-title">WhatsApp</h3>
+                <p class="info-value">Message me directly</p>
+                </div>
+                <a href="https://wa.me/0707274060" target="_blank" class="whatsapp-link">
+                <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+          </div>
+        </div>
+        <div class="contact-form-container">
+          <div id="form-success" class="form-success">
+            <div class="success-icon">
+              <i class="fas fa-check"></i>
+            </div>
+            <h3 class="success-title">Message Sent!</h3>
+            <p class="success-message">Thank you for reaching out. I'll get back to you as soon as possible.</p>
+          </div>
+          <form id="contact-form" class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe">
+                <span class="error-message" id="name-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="user@example.com">
+                <span class="error-message" id="email-error"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry">
+              <span class="error-message" id="subject-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."></textarea>
+              <span class="error-message" id="message-error"></span>
+            </div>
+            <button type="submit" class="btn primary-btn submit-btn">
+              <i class="fas fa-paper-plane"></i> Send Message
+              <span class="spinner"></span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo-circles">
+            <div class="circle blue"></div>
+            <div class="circle yellow"></div>
+          </div>
+          <span class="logo-text">Moses Mulwa</span>
+        </div>
+        <div class="footer-nav">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#services" class="footer-link">Services</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://facebook.com" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> MoxienTech. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+  
+  <script src="script.js"></script>
+  
+  <a href="https://wa.me/0707274060" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</body>
+</html>
